@@ -1,0 +1,10 @@
+[
+	"gameClasses",
+	"gameEvents",
+	"i18n",
+	"extConnector",
+	"background",
+	"store",
+	"main",
+	"helpers"
+]

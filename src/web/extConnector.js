@@ -1,0 +1,1 @@
+{const a=window.infoBox.sharedObjectId,b=window[a],c=window.infoBox.extID,d=new Proxy({},{get:(e,r)=>(...e)=>new Promise((o,n)=>chrome.runtime.sendMessage(c,{cmd:r,args:e},e=>!e||"error"in e?n(e&&e.error):o(e.data)))});b.extension=d}
