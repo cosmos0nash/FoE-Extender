@@ -1,1 +1,1 @@
-{const a=window.infoBox.sharedObjectId,b=window[a],c=window.infoBox.extID,d=new Proxy({},{get:(e,r)=>(...e)=>new Promise((o,n)=>chrome.runtime.sendMessage(c,{cmd:r,args:e},e=>!e||"error"in e?n(e&&e.error):o(e.data)))});b.extension=d}
+{const e=window.infoBox.sharedObjectId,o=window[e],n=window.infoBox.extID,r=new Proxy({},{get:(e,o)=>(...e)=>new Promise(((r,i)=>chrome.runtime.sendMessage(n,{cmd:o,args:e},(e=>!e||"error"in e?i(e&&e.error):r(e.data)))))});o.extension=r}

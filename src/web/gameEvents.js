@@ -1,1 +1,0 @@
-{const a=window.infoBox.sharedObjectId,b=window[a],c={GAME_LOADED:"BootstrapEvent/FINISHED",MAIN_CITY_READY:"IsoBackgroundEvent/READY",NEGOTIATION_WIN:"NegotiationGameEvent/WIN_STATE",NEGOTIATION_LOSE:"NegotiationGameEvent/LOSE_STATE",ADD_WINDOW:"WindowEvent/ADD_WINDOW"};b.gameEvents=c}
