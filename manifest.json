@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "FoE Extender",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"content_scripts": [
 		{
 			"matches": [
@@ -36,7 +36,11 @@
 	"permissions": [
 		"storage",
 		"cookies",
-		"unlimitedStorage"
+		"unlimitedStorage",
+		"system.storage",
+		"system.cpu",
+		"system.memory",
+		"system.display"
 	],
 	"host_permissions": [
 		"https://*.forgeofempires.com/game/index*",
